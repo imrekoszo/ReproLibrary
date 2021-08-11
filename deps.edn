@@ -1,2 +1,3 @@
-{:deps {repro-lib/blue {:local/root "Blue"}
-        repro-lib/red  {:local/root "Red"}}}
+{:deps {repro-lib/blue {:local/root "blue"}
+        repro-lib/red  {:local/root "red"}
+        repro-lib/root {:local/root "root"}}}
