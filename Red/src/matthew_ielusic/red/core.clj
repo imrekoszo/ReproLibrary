@@ -1,2 +1,2 @@
-(ns matthew-ielusic.red.core)
-
+(ns matthew-ielusic.red.core
+  [:require matthew-ielusic.root.core])
