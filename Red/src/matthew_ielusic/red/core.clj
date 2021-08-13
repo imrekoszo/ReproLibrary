@@ -1,4 +1,5 @@
-(ns matthew-ielusic.red.core
-  [:require matthew-ielusic.root.core :as root])
+(ns matthew-ielusic.red.core)
 
-(defn pow4 [x] (-> x root/sqr root/sqr))
+(defn sqr [x] (* x x))
+
+(defn pow4 [x] (-> x sqr sqr))
